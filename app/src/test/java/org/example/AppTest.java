@@ -4,8 +4,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-  // We have not learned how to test a while loop with unit tests.
-  // It is possible to do, but you need to handle the user input and validation.
-  // Thus, for this lab, you do NOT need to write unit tests.
-  // Instead, test your code with a driver function
+
+    @Test
+    void dummyTest() {
+        // Simple placeholder to ensure test file compiles.
+        // Real testing would require mocking Scanner, which is beyond this lab's scope.
+        System.out.println("Manual tests should be run through main()");
+    }
 }
